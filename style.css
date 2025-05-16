@@ -11,6 +11,17 @@ body {
   color: #4b2e2e;
 }
 
+p {
+  text-align: center;       /* Centraliza o texto */
+  max-width: 600px;         /* Define uma largura máxima */
+  margin: 0 auto;           /* Centraliza o bloco na página */
+  padding: 15px 20px;       /* Espaçamento interno */
+  line-height: 1.6;         /* Altura da linha para melhor legibilidade */
+  font-size: 1.1rem;        /* Tamanho do texto ligeiramente aumentado */
+  color: #333;              /* Cor do texto mais suave que preto puro */
+  font-family: 'Arial', sans-serif; /* Fonte limpa e moderna */
+}
+
 a {
   text-decoration: none;
   color: #8a4b2a;
