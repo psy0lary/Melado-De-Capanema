@@ -151,3 +151,44 @@ a:hover {
   padding: 10px;
   color: #4b2e2e;
 }
+
+
+
+
+.titulos {
+  /* Fonte */
+  font-family: 'Bebas Neue', 'Montserrat', sans-serif; /* Fontes modernas e impactantes */
+  font-size: 2.8rem;  /* Tamanho grande (aproximadamente 45px) */
+  font-weight: 700;   /* Negrito */
+  
+  /* Texto */
+  text-align: center;  /* Centralizado */
+  color: #5D4037;      /* Cor marrom elegante */
+  text-transform: uppercase; /* Todas letras maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  
+  /* Efeitos */
+  text-shadow: 
+    2px 2px 0px #8D6E63,    /* Sombra marrom clara */
+    4px 4px 6px rgba(0,0,0,0.3); /* Sombra difusa */
+  
+  /* Relevo */
+  position: relative;
+}
+
+/* Efeito de relevo adicional */
+.titulos::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: rgba(0,0,0,0.3);
+  z-index: -1;
+}
+
+/* Espaçamento */
+.titulos {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 90%;
+}
