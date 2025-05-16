@@ -92,6 +92,13 @@ a:hover {
   font-size: 1.2em;
 }
 
+.menu-menu {
+  background: url('large_57a8c61fb8ee55-46901582.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; /* ou a altura que você desejar */
+}
+
 /* Conteúdo das páginas */
 .content {
   max-width: 800px;
